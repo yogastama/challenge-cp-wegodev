@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#app {
+  padding-bottom: 100px;
+}
+
+.bg-second {
+  background-color: #ff3f81;
+  color: white;
+}
+
+.btn-main {
+  background-color: #ff3f81;
+  color: white;
+}
+
+.btn-main:hover {
+  color: #ff3f81;
+  background-color: white;
+  border: 1px solid #ff3f81;
+}
+
+.box-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #ff3f81;
+  color: white;
+  line-height: 80px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.main-bg {
+  background-repeat: repeat-y;
+}
+
+.main-font {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+li.nav-item.active {
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+}
+
+li.nav-item {
+  margin-top: 5px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+li.nav-item:hover {
+  border-bottom: 1px solid white;
+}
+
+a.nav-link {
+  color: white !important;
+}
+
+.home-font {
+  color: white;
+  font-size: 90px;
+  font-family: 'Montserrat Alternates',sans-serif;
+}
+
+main.home-content {
+  margin-top: 100px;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+main.about-content {
+  margin-top: 100px;
+}
+
+.slogan {
+  line-height: 35px;
+}
+
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+  color: white;
+  text-align: right;
+}
+
+.section-team {
+  font-family: "Poppins", sans-serif;
+  padding: 80px 0;
+}
+
+.section-team .header-section {
+  margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e64ff;
+}
+
+.section-team .header-section .title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.section-team .single-person {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #f6f9ff;
+  border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#ff3f81), to(#f871db));
+  background: linear-gradient(to right, #ff3f81, #f871db);
+}
+
+.section-team .single-person .person-image {
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border: 4px dashed transparent;
+  -webkit-transition: padding .3s;
+  transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+  padding: 12px;
+  border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ff3f81), to(#f871db));
+  background: linear-gradient(to right, #ff3f81, #f871db);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+  background: none;
+  background-color: #fff;
+  color: #ff3f81;
+}
+
+.section-team .single-person .person-info .full-name {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff3f81;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .home-font {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home-font {
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+}
+/*# sourceMappingURL=stye.css.map */
